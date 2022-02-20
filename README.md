@@ -26,5 +26,5 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
 
-## Commits:
-1. Nested modules with multi-level routing.
+
+Lazy loading of Nested modules with multi-level routing.
