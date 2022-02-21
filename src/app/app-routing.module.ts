@@ -9,14 +9,14 @@ const routes: Routes = [
     loadChildren: () => import('./features/settings/settings.module').then(m => m.SettingsModule)
    //component:SettingsComponent
   },
-  {
-    path:'**',
-    component:PageNotFoundComponent
-  }
+  // {
+  //   path:'**',
+  //   component:PageNotFoundComponent
+  // }
 ];
 
 @NgModule({
-  imports: [RouterModule.forRoot(routes,{ enableTracing: true })],
+  imports: [RouterModule.forRoot(routes,{ enableTracing: false })],
   exports: [RouterModule]
 })
 export class AppRoutingModule { }
